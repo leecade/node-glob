@@ -12,14 +12,14 @@
     "node": "*"
   },
   "dependencies": {
-    "minimatch": "0.2",
-    "graceful-fs": "~1.1.2",
-    "inherits": "1"
+    "minimatch": "~3.0.3",
+    "graceful-fs": "~4.1.10",
+    "inherits": "^2.0.3"
   },
   "devDependencies": {
-    "tap": "~0.3",
+    "tap": "~8.0.0",
     "mkdirp": "0",
-    "rimraf": "1"
+    "rimraf": "^2.5.4"
   },
   "scripts": {
     "test": "tap test/*.js"
